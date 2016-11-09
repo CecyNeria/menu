@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,7 +20,8 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <header>
+  <div class="cabecera"></div>
     <nav id="menu">
 			<a href="#" class="nav-mobile" id="nav-mobile" onclick="color()"></a>
 			<ul>
@@ -30,12 +32,34 @@
 				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
-		<div class="container">
-			<p>holiwi</p>
-		</div>
+  </header>
+  <div class="container">
+           <div class="row">
+               <div class="jumbotron">
+                  <h1>Articulo destacado de la semana</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorem ad officiis nihil delectus quidem animi rerum, molestias sint natus ducimus quod, unde molestiae dolores laboriosam error facilis odio doloremque.</p>
+                  <p><a class="btn btn-primary btn-lg" role="button">Leer mas</a></p>
+            </div>
+           </div>
+       </div>
+  <a name="inicio">
+      <section id="impar">
+		    <div class="container">
+			   <div class="row">
+            <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+          </div>    
+		    </div>
+      </section>
+    </a>
 		<footer>
 			<div class="container">
-				<p>bye</p>
 			</div>
 		</footer>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

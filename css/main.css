@@ -11,4 +11,40 @@ body{
 	background-color: #ffb74d;
 }
 
+header{
+	background: #000;
+	height:3.2em;
+    width: 100%;
+    position: fixed;
+	top:0;
+	left:0;
+}
 
+#menu{
+	float: right;
+	padding-bottom: 200px;
+}   
+
+#menu ul{
+	list-style: none;
+}
+
+#menu li{
+   display: block;
+   float: left;
+}
+
+#menu li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding:0.8em 1.5em;
+}
+
+#menu li a:hover{
+	color: #ffc700;
+}
+
+#nav-mobile{
+	display: none;
+}   
