@@ -37,3 +37,36 @@ footer {
 .navbar-inverse .navbar-nav>li>a:visited{
 	color: peru;
 }
+
+
+
+.iconosContacto{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.iconosContacto .glyphicon{
+	color: black;
+	font-size: 50px;
+}
+
+
+
+.google-maps{
+	position: relative;
+	padding-bottom: 350px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.google-maps iframe{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100% !important;
+	height: 350px !important;
+}
+
+.embed-responsive{
+	margin-top: 15px;
+}
